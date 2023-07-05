@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <Link rel="stylesheet" href="booking.css" />
+  <Link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&family=League+Spartan:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+  <title>Frontend Mentor | Dine Website Challenge</title>
+  <script src="booking.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" defer></script>
+
+</head>
+<body>
+  <header class="header">
+      <section>
+        <a>
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <h1>Reservations</h1>
+        <p class="desc">We can’t wait to host you. If you have any special requirements please feel free to
+          call on the phone number below. We’ll be happy to accommodate you.</p>
+        <span class="reserve">Reserve Place</span>
+      </section>
+  </header>
+  <main>
+ 
+
+    <section>
+      <form>
+        <div class="input--control ">
+          <input type="text" placeholder="Name" id="name" />
+          <div class="error"></div>
+        </div>
+        <div class="input--control">
+          <input type="text" placeholder="Email" id="email" />
+          <div class="error"></div>
+        </div>
+        <div class="date--container input--control">
+          <label class="label">Pick a date</label>
+          <div class="error"></div>
+          <section>
+            <div class="input--control">
+              <input type="number" placeholder="MM" id="month" />
+              <div class="error t"></div>
+            </div>
+          
+            <div class="input--control">
+              <input type="number" placeholder="DD" id="day" />
+              <div class="error t"></div>
+            </div>
+          
+            <div class="input--control">
+              <input type="number" placeholder="YYYY" id="year" />
+              <div class="error t"></div>
+            </div>
+          
+          </section>
+        </div>
+       <div class="time--container input--control ">
+          <label for="time" class="label2"  >Pick a time</label>
+          <div class="error"></div>
+          <section>
+            <div class="input--control">
+              <input type="number" id="hour" placeholder="09" />
+            </div>
+            <div class="input--control">
+              <input type="number" id="minute" placeholder="00" />
+            </div>
+        
+
+
+            <div class="select--menu">
+              <div class="select--btn">
+                <span class="option--text">AM</span>
+                <div class="icon--arrow"><img src="images/icons/icon-arrow.svg" alt=""></div>
+              </div>
+              <ul class="options">
+                <li data-t="AM" class="option am">AM</li>
+                <li data-t="PM" class="option">PM</li>
+                <li class="check"><img src="images/icons/icon-check.svg" alt=""></li>
+              </ul>
+              
+            </div>
+          </section>
+       </div>
+      
+
+        <section class="amount--of--people">
+          <button id="minus">-</button>
+          <p><span id="num">0</span> peaople</p>
+          
+          <button id="add">+</button>
+        </section>
+        <section class="make--reservation">
+          <button>Make Reservation</button>
+        </section>
+        
+
+      </form>
+      <div class="im">
+        <img src="images/patterns/pattern-curve-bottom-right.svg" alt="">
+       
+      </div>
+      <div class="li">
+        <img src="images/patterns/pattern-lines.svg" alt="">
+      </div>
+    </section>
+    
+  </main>
+
+
+  <footer>
+    <section class="ready">
+      <h2 class="ready--h2">Ready to make a reservation?</h2>
+      <a class="ready--a">Book a table</a>
+    </section>
+    <section class="information">
+      <a class="information--a"><img src="images/logo.svg" alt=""></a>
+      <section class="inf">
+        <section>
+          <p>Marthwaite, Sedbergh</p>
+          <p>Cumbria</p>
+          <p>+00 44 123 4567</p>
+        </section>
+        <section>
+          <p>Open Times</p>
+          <p>Mon - Fri: 09:00 AM - 10:00 PM</p>
+          <p>Sat - Sun: 09:00 AM - 11:30 PM</p>
+        </section>
+      </section>
+    </section>
+  </footer>
+
+
+
+</body>
+</html>
