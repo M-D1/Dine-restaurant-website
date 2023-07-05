@@ -546,12 +546,13 @@ img.img{
   header {
 
     background-image: url('images/homepage/hero-bg-desktop.jpg');
-    min-height: 141vh;
+    min-height: 0;
+    height: 820px;
   }
   .ovlay{
     width: 56vw;
     margin-left: auto;
-    height: 141vh;
+    height: 820px;
   }
 
   .header--content{
@@ -563,7 +564,7 @@ img.img{
   .header--content h1{
     width: 31.75rem;
     font-size: 5rem;
-    margin:1.9125em 0 0.125em 0;
+    margin:1.2em 0 0.125em 0;
   }
   .header--content p{
     width:28.4375rem
@@ -591,6 +592,7 @@ img.img{
   .enjoyable{
     content: url('images/homepage/enjoyable-place-desktop.jpg');
     margin-top: -5em;
+    margin-left: -7em;
   }
   .locally--sourced{
     content: url('images/homepage/locally-sourced-desktop.jpg');
@@ -760,7 +762,7 @@ img.img{
 
 @media(min-width:1200px){
   .header--content{
-    top: 7%;
+    top: 4%;
     left: 9.5%;
   }
   .enjoyable--container{
@@ -828,13 +830,10 @@ img.img{
 
 }
 @media(min-width:1300px){
-  header{
-    min-height: 105vh;
-    height: 94vh;
-  }
+  
   .ovlay{
     width: 58vw;
-    height: 105vh;
+    
   }
   .enjoyable--container{
     padding-left: 10.3125em;
