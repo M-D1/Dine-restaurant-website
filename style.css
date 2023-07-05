@@ -829,12 +829,12 @@ img.img{
 }
 @media(min-width:1300px){
   header{
-    min-height: 125vh;
-    height: 125vh;
+    min-height: 105vh;
+    height: 94vh;
   }
   .ovlay{
     width: 58vw;
-    height: 125vh;
+    height: 105vh;
   }
   .enjoyable--container{
     padding-left: 10.3125em;
