@@ -6,7 +6,6 @@ const typeOfEvents = document.querySelector('.type--of--events')
 
 const img = document.querySelector('img.img')
 
-console.log(img)
 
 
 
@@ -18,9 +17,7 @@ let w =''
 
 
 
-// document.addEventListener('',function(e){
-//   console.log(e.target.dataset.num)
-// })
+
 let familyImg ='images/homepage/family-gathering-mobile.jpg'
 let socialImg ='images/homepage/special-events-mobile.jpg'
 let specialImg ='images/homepage/social-events-mobile.jpg'
@@ -48,7 +45,6 @@ window.onresize = function(e){
     const p1 = document.getElementById('1')
      p1.classList.add('active')
     w = window.innerWidth
-    console.log(w)
    
 
 
@@ -100,7 +96,6 @@ function handleClick(num){
  const el = document.getElementById(num)
  el.classList.add('active')
 
- console.log(el.textContent)
  if(el.textContent === 'Family Gathering'){
   img.src= familyImg
   typeOfEvents.innerHTML =`
