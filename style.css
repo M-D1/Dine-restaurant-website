@@ -716,11 +716,11 @@ img.img{
   .nav p{
     margin-left: 1em;
   }
-  .nav section{
+  .nav div{
     display: flex;
     align-items: center;
   }
-  .nav section span{
+  .nav div span{
     order: -1;
     margin-left: -3em;
   }
@@ -811,7 +811,7 @@ img.img{
   .t3rd--section--container .img {
     width: 41vw;
   }
-  .nav section span {
+  .nav div span {
     width: 191px;
     margin-left: -12em;
   }
