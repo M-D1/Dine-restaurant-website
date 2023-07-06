@@ -823,11 +823,13 @@ img.img{
  
 
   .information{
-    justify-content: space-around;
+    height: 240px;
+    gap: 12.03625em;
+    padding: 4.875em 10.3125em 4.75em 10.3125em;
   }
 
   .inf{
-    gap: 13em;
+    gap: 7.75em;
   }
 
 
