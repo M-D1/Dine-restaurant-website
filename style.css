@@ -581,17 +581,20 @@ img.img{
     justify-content: space-around;
     gap: 2em;
   }
+  .enjoyable--container{
+    padding-left: 7em;
+  }
   .enjoyable--container h2,.enjoyable--container p,
   .locally--container h2 ,.locally--container p{
     width: 100%;
   }
   .enjoyable--container .pattern--divide{
-    margin: 8em 0 3.4375em 0;
+    margin: 11.0625em 0 3.4375em 0;
   
   }
   .enjoyable{
     content: url('images/homepage/enjoyable-place-desktop.jpg');
-    margin-top: -5em;
+    margin-top: -4em;
     margin-left: -7em;
   }
   .locally--sourced{
@@ -602,7 +605,9 @@ img.img{
 
   .enjoyable--container .pattern--curve--top--right{
   
-    transform: translate(-20%,60%);
+    transform: none;
+    margin-top: 15.625em;
+    margin-left: -14.5625em;
   }
   .locally--container {
     overflow: clip;
@@ -794,13 +799,7 @@ img.img{
   .highlights--content:first-child{
     padding-top: calc(23vw + -1vh);
   }
-  .highlights--content h3 {
-    font-size: 2rem;
-  }
-
-  .highlights--content p {
-    font-size: 1.2rem;
-  }
+ 
   .t3rd--section--container{
     gap: 12em;
   }
@@ -846,7 +845,8 @@ img.img{
     gap: 9em;
   }
   .enjoyable--container .pattern--curve--top--right{
-    transform:translate(-30%,60%);
+    width: 228.5%;
+    margin-left: -290px;
 
   }
   .locally--container .pattern--curve--top--left{
@@ -872,10 +872,7 @@ img.img{
     width: 200%;
     transform: translate(-19%,74%);
   }
-  .enjoyable--container .pattern--curve--top--right{
-    width: 200%;
-    transform: translate(-31%,44%);
-  }
+ 
   
 }
 
@@ -893,6 +890,11 @@ img.img{
   .highlights--content p{
     width: auto;
     font-size: 1.4rem;
+  }
+
+  .enjoyable--container .pattern--curve--top--right{
+    width: 277%;
+    margin-left: -23em;
   }
  
 

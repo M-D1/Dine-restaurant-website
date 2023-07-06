@@ -1,21 +1,8 @@
 const p = document.querySelectorAll('.nav p');
-
 const typeOfEvents = document.querySelector('.type--of--events')
-
-
-
 const img = document.querySelector('img.img')
 
-
-
-
 let w =''
-
-
-
-
-
-
 
 
 let familyImg ='images/homepage/family-gathering-mobile.jpg'
@@ -25,10 +12,6 @@ let specialImg ='images/homepage/social-events-mobile.jpg'
 img.src = familyImg
 
 
-
-
-
-
 document.addEventListener('click',function(e){
  if(e.target.dataset.num){
     handleClick(e.target.dataset.num)
@@ -36,14 +19,15 @@ document.addEventListener('click',function(e){
 })
 
 
-  
 
 window.onresize = function(e){
     for(const pTag of p){
       pTag.classList.remove('active')
     }
+
     const p1 = document.getElementById('1')
-     p1.classList.add('active')
+
+    p1.classList.add('active')
     w = window.innerWidth
    
 
@@ -53,16 +37,15 @@ window.onresize = function(e){
     familyImg ='images/homepage/family-gathering-mobile.jpg'
     socialImg ='images/homepage/special-events-mobile.jpg'
     specialImg ='images/homepage/social-events-mobile.jpg'
-   
-   
+    
     img.src = familyImg
   
-
 
   }else if( w === 670 || w < 900 ){
     familyImg ='images/homepage/family-gathering-tablet.jpg'
     socialImg = 'images/homepage/social-events-tablet.jpg'
     specialImg ='images/homepage/special-events-tablet.jpg'
+
     img.src = familyImg
    
   }
@@ -70,21 +53,11 @@ window.onresize = function(e){
     familyImg ='images/homepage/family-gathering-desktop.jpg'
     socialImg = 'images/homepage/social-events-desktop.jpg'
     specialImg ='images/homepage/special-events-desktop.jpg'
+    
     img.src = familyImg
     
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
